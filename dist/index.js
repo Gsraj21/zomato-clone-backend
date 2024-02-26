@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const cors_1 = __importDefault(require("cors"));
-import "dotenv/config";
+require("dotenv/config");
 const mongoose_1 = __importDefault(require("mongoose"));
 const MyUserRoute_1 = __importDefault(require("./routes/MyUserRoute"));
 //Db connection
